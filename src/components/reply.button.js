@@ -7,3 +7,9 @@ export default class LikeButton extends React.Component{ //React.Component is a 
         return React.createElement('button', {class: 'btn btn-primary'}, 'Reply') //takes 3 arguments: what html element you want to create, props object, content/children of the element thats going to be rendered 
     }
 }
+
+//JSX Notes: 
+//export default class LikeButton extends React.Component{ 
+//    render(){ 
+//        return <button className="btn btn-primary">Reply</button>; //JSX conversion from React 
+//}
